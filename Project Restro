@@ -1,0 +1,6 @@
+CREATE TABLE menu (
+  dish_id INT PRIMARY KEY,
+  dish_name VARCHAR(255) NOT NULL,
+  quantity INT,
+  price INT
+);
